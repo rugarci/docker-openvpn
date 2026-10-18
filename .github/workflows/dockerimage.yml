@@ -21,7 +21,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/opennpv
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/openvpn
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v4

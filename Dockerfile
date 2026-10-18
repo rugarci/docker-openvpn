@@ -4,7 +4,7 @@
 # This work is licensed under the MIT License
 # See: https://opensource.org/licenses/MIT
 
-FROM alpine:3.23
+FROM alpine:3.24.2
 
 ENV EASYRSA_VER=3.2.7
 WORKDIR /opt/src
